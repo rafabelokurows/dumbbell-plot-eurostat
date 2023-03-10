@@ -1,4 +1,4 @@
-# Generating dumbbell plots with R
+# Dumbbell plots with Eurostat data
 
 Initially I was using the package ggalt, but I believed it was better to flip coordinates so I could show data from left to right in a more natural way. I couldn't make that quite quickly with ggalt so I changed my approach to use geom_segment from ggplot2 and it worked pretty well.
 
